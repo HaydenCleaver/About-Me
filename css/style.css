@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(167, 231, 231);
+}
+
+header {
+    border: solid black 4px;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 4px;
+    border-bottom: 0px;
+}
+
+h4 {
+    border: dotted black 4px;
+    border-bottom: 0;
+    margin: 0;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 0;
+}
+
+p {
+    border: solid black 4px;
+    margin-top: 0;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: rgba(235, 230, 231, 0.945);
+}
+
+#quiz {
+    align-items: center;
+    text-align: center;
+}
