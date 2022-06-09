@@ -3,7 +3,7 @@
 let user = prompt('Please enter your name: ');
 alert('Welcome ' + user + '!');
 
-let topThree = ['big sur', 'grandfather mountain', 'aiea trail'];
+let topThree = ['Big Sur', 'Grandfather Mountain', 'Aiea Trail'];
 let correct = 0;
 let numAnswer = Math.floor(Math.random() * 10);
 
@@ -103,7 +103,7 @@ function fiveQuestions() {
     result = question.toLowerCase();
 
     for (let n = 0; n < topThree.length; n++) {
-      if (result === topThree[n]) {
+      if (result === topThree[n].toLowerCase()) {
         alert('That is correct!');
         alert('These are all of the correct answers: ' + topThree);
         correct++;
