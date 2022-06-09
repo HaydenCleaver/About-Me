@@ -15,6 +15,13 @@ The guessing game has also been expanded to include a random number guessing gam
 
 Additionally, there is now a counter that tracks how many correct answers you make during the game.
 
+**Lab04 Additions**:
+
+Added a new function that should potentially help with reading lists and making the final loop less complex.
+
+Driver: Joshua Frazer \
+Navigator: Hayden Cleaver
+
 ### Links and Resources
 
 [Basic HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)\
@@ -34,3 +41,4 @@ I also learned to be very careful about typing out the file path for using exter
 I struggled pretty hard with getting the logic for the 'for' loop down.  Specifically the flow of what it was controlling under it.
 
 After I figured that out, it kind of clicked and got a lot easier.
+
