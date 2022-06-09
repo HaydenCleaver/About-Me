@@ -25,6 +25,7 @@ function fiveQuestions() {
   //     correct++;
   //   }
   //   else if (result !== answers[i] && i === 5) {
+  //     result === Number(result);
   //     triesLeft--;
   //     console.log(answers[i]);
   //     while (triesLeft > 0){
