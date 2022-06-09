@@ -6,11 +6,52 @@ alert('Welcome ' + user + '!');
 let topThree = ['Big Sur', 'Grandfather Mountain', 'Aiea Trail'];
 let correct = 0;
 let numAnswer = Math.floor(Math.random() * 10);
+// let triesLeft = 4;
 
 function fiveQuestions() {
 
   let question = prompt('Was I born in Baltimore?');
   let result = question.toLowerCase();
+
+  // let questions = ['Was I born in Baltimore?', 'Is my favorite season summer?', 'Do I like to kayak?', 'Do I have a college degree?', 'Do I want to move to a different country?', 'Guess a number 0-10. You get 4 chances.'];
+  // let answers = ['yes', 'no', 'yes', 'no', 'yes', numAnswer];
+
+  // for (let i = 0; i < questions.length; i++){
+  //   question = prompt(questions[i]);
+  //   result = question.toLowerCase();
+
+  //   if (result === answers[i]){
+  //     alert('That is correct!');
+  //     correct++;
+  //   }
+  //   else if (result !== answers[i] && i === 5) {
+  //     triesLeft--;
+  //     console.log(answers[i]);
+  //     while (triesLeft > 0){
+
+  //       if (result === answers[5]){
+  //         alert('That is correct!');
+  //         correct++;
+  //         break;
+  //       }
+
+  //       else if (result > answers[5]){
+  //         alert('Too high! You have ' + triesLeft + ' chances left.');
+  //       }
+
+  //       else {
+  //         alert('Too low! You have ' + triesLeft + ' chances left.');
+  //       }
+
+  //       triesLeft--;
+  //       prompt(questions[5]);
+  //     }
+  //   }
+  //   else {
+  //     alert('That is incorrect!');
+  //   }
+  // }
+  // alert('You answered ' + correct + ' questions correctly!');
 
   if (result === 'yes' || result === 'y') {
     // console.log('That\'s correct!');
