@@ -8,6 +8,15 @@ let correct = 0;
 let numAnswer = Math.floor(Math.random() * 10);
 // let triesLeft = 4;
 
+function trails(answer, listOfTrails) {
+  for(let i = 0; i < listOfTrails.length; i++) {
+    if (answer.toLowerCase() === listOfTrails[i].toLowerCase()){
+      return true;
+    }
+  }
+  return false;
+}
+
 function fiveQuestions() {
 
   let question = prompt('Was I born in Baltimore?');
