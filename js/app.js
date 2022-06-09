@@ -25,7 +25,6 @@ function fiveQuestions() {
   //     correct++;
   //   }
   //   else if (result !== answers[i] && i === 5) {
-  //     result === Number(result);
   //     triesLeft--;
   //     console.log(answers[i]);
   //     while (triesLeft > 0){
@@ -45,7 +44,8 @@ function fiveQuestions() {
   //       }
 
   //       triesLeft--;
-  //       prompt(questions[5]);
+  //       result === parseInt(prompt(questions[5]));
+
   //     }
   //   }
   //   else {
