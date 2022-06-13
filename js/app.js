@@ -7,28 +7,17 @@ let topThree = ['Big Sur', 'Grandfather Mountain', 'Aiea Trail'];
 let correct = 0;
 let numAnswer = Math.floor(Math.random() * 10);
 
-
-// function trails(answer, listOfTrails) {
-//   for(let i = 0; i < listOfTrails.length; i++) {
-//     if (answer.toLowerCase() === listOfTrails[i].toLowerCase()){
-//       return true;
-//     }
-//   }
-//   return false;
-// }
-
 function fiveQuestions() {
 
   let question = prompt('Was I born in Baltimore?');
   let result = question.toLowerCase();
 
   if (result === 'yes' || result === 'y') {
-    // console.log('That\'s correct!');
     alert('That\'s correct!');
     correct++;
 
   } else {
-    // console.log('That\'s incorrect!');
+
     alert('That\'s incorrect!');
   }
 
@@ -36,12 +25,12 @@ function fiveQuestions() {
   result = question.toLowerCase();
 
   if (result === 'no' || result === 'n') {
-    // console.log('That\'s correct!');
+
     alert('That\'s correct!');
     correct++;
 
   } else {
-    // console.log('That\'s incorrect!');
+
     alert('That\'s incorrect!');
   }
 
@@ -49,12 +38,12 @@ function fiveQuestions() {
   result = question.toLowerCase();
 
   if (result === 'yes' || result === 'y') {
-    // console.log('That\'s correct!');
+
     alert('That\'s correct!');
     correct++;
 
   } else {
-    // console.log('That\'s incorrect!');
+
     alert('That\'s incorrect!');
   }
 
@@ -62,12 +51,12 @@ function fiveQuestions() {
   result = question.toLowerCase();
 
   if (result === 'no' || result === 'n') {
-    // console.log('That\'s correct!');
+
     alert('That\'s correct!');
     correct++;
 
   } else {
-    // console.log('That\'s incorrect!');
+
     alert('That\'s incorrect!');
   }
 
@@ -75,12 +64,12 @@ function fiveQuestions() {
   result = question.toLowerCase();
 
   if (result === 'yes' || result === 'y') {
-    //console.log('That\'s correct!');
+
     alert('That\'s correct!');
     correct++;
 
   } else {
-    //console.log('That\'s incorrect!');
+
     alert('That\'s incorrect!');
   }
 
@@ -131,13 +120,6 @@ function fiveQuestions() {
           return;
         }
       }
-
-      // else {
-      //   alert('That is incorrect! You have ' + (6-(i+1)) + ' guesses left.');
-      //   // break;
-
-      // }
-
     }
     alert('That is incorrect! You have ' + (6 - (i + 1)) + ' guesses left.');
   }
